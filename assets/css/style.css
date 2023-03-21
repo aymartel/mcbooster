@@ -3752,7 +3752,7 @@ background: linear-gradient(180deg, rgba(23,23,26,1) 0%, rgba(23,23,26,0) 92%);
 /******************** 07. Hero Area ********************/
 /*******************************************************/
 .backgvideo1{
-  background-image: url('../images/slider/business.avif');
+  background-image: url('../images/slider/business.webp');
 }
 .backgvideo2{
   background-image: url('../images/slider/design.jpg');
