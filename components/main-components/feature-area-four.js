@@ -15,7 +15,7 @@ const FeatureAreaFour = () => {
             <div className="feature-item-four wow fadeInUp delay-0-1s">
               <h4>
                 <i className="flaticon-design" />
-                <Link href="/service-details">
+                <Link href="#service-details">
                   {t("featureitemfour_title1_1")}
                 </Link>
               </h4>
@@ -28,7 +28,7 @@ const FeatureAreaFour = () => {
             <div className="feature-item-four wow fadeInUp delay-0-5s">
               <h4>
                 <i className="flaticon-graphic-design" />
-                <Link href="/service-details">
+                <Link href="#service-details">
                   {t("featureitemfour_title1_2")}
                 </Link>
               </h4>
@@ -41,7 +41,7 @@ const FeatureAreaFour = () => {
             <div className="feature-item-four wow fadeInUp delay-0-7s">
               <h4>
                 <i className="flaticon-creativity" />
-                <Link href="/service-details">
+                <Link href="#service-details">
                   {t("featureitemfour_title1_3")}
                 </Link>
               </h4>
@@ -55,7 +55,7 @@ const FeatureAreaFour = () => {
             <div className="feature-item-four wow fadeInUp delay-0-1s">
               <h4>
                 <i className="flaticon-web-programming" />
-                <Link href="/service-details">
+                <Link href="#service-details">
                   {t("featureitemfour_title2_1")}
                 </Link>
               </h4>
@@ -68,7 +68,7 @@ const FeatureAreaFour = () => {
             <div className="feature-item-four wow fadeInUp delay-0-5s">
               <h4>
                 <i className="flaticon-seo" />
-                <Link href="/service-details">
+                <Link href="#service-details">
                   {t("featureitemfour_title2_2")}
                 </Link>
               </h4>
@@ -81,7 +81,7 @@ const FeatureAreaFour = () => {
             <div className="feature-item-four wow fadeInUp delay-0-7s">
               <h4>
                 <i className="flaticon-user-experience" />
-                <Link href="/service-details">
+                <Link href="#service-details">
                   {t("featureitemfour_title2_3")}
                 </Link>
               </h4>

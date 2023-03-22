@@ -16,7 +16,7 @@ const CallToAction = () => {
             </div>
           </div>
           <div className="col-lg-3 text-lg-end">
-            <Link href="/contact">
+            <Link href="#contact">
               <a className="theme-btn style-two mb-30 wow fadeInUp delay-0-4s">
                 Let’s Get Started <i className="fas fa-angle-double-right" />
               </a>

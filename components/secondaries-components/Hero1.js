@@ -29,12 +29,12 @@ const Hero1 = () => {
               </span>
               <h1>{t("hero_title3")}</h1>
               <div className="slider-btns">
-                <Link href="/contact">
+                <Link href="#contact">
                   <a className="theme-btn">
                   {t("hero_btfill")} <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/services">
+                <Link href="#services">
                   <a className="theme-btn style-three">
                   {t("hero_bt")} <i className="fas fa-angle-double-right" />
                   </a>
@@ -68,12 +68,12 @@ const Hero1 = () => {
               </span>
               <h1>{t("hero_title1")}</h1>
               <div className="slider-btns">
-                <Link href="/contact">
+                <Link href="#contact">
                   <a className="theme-btn">
                   {t("hero_btfill")} <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/services">
+                <Link href="#services">
                   <a className="theme-btn style-three">
                   {t("hero_bt")} <i className="fas fa-angle-double-right" />
                   </a>
@@ -107,12 +107,12 @@ const Hero1 = () => {
               </span>
               <h1>{t("hero_title2")}</h1>
               <div className="slider-btns">
-                <Link href="/contact">
+                <Link href="#contact">
                   <a className="theme-btn">
                   {t("hero_btfill")} <i className="fas fa-angle-double-right" />
                   </a>
                 </Link>
-                <Link href="/services">
+                <Link href="#services">
                   <a className="theme-btn style-three">
                   {t("hero_bt")} <i className="fas fa-angle-double-right" />
                   </a>

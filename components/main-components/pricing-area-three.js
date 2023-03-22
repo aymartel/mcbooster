@@ -70,7 +70,7 @@ const PricingAreaThree = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link href="#pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -98,7 +98,7 @@ const PricingAreaThree = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link href="#pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -130,7 +130,7 @@ const PricingAreaThree = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link href="#pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />
@@ -158,7 +158,7 @@ const PricingAreaThree = () => {
                           <span className="save">
                             Save<span> 25%</span>
                           </span>
-                          <Link href="/pricing">
+                          <Link href="#pricing">
                             <a className="theme-btn style-three">
                               Choose Package{" "}
                               <i className="fas fa-angle-double-right" />

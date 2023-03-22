@@ -26,11 +26,11 @@ const DesignFeatureArea = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <Link href="/service-details">
+                        <Link href="#service-details">
                           <a>{t("designfeaturearea_itemtitle1")}</a>
                         </Link>
                       </h4>
-                      <Link href="/service-details">
+                      <Link href="#service-details">
                         <a className="more-btn">
                           <i className="fal fa-long-arrow-right" />
                         </a>
@@ -45,11 +45,11 @@ const DesignFeatureArea = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <Link href="/service-details">
+                        <Link href="#service-details">
                         <a>{t("designfeaturearea_itemtitle2")}</a>
                         </Link>
                       </h4>
-                      <Link href="/service-details">
+                      <Link href="#service-details">
                         <a className="more-btn">
                           <i className="fal fa-long-arrow-right" />
                         </a>
@@ -82,11 +82,11 @@ const DesignFeatureArea = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <Link href="/service-details">
+                        <Link href="#service-details">
                         <a>{t("designfeaturearea_itemtitle3")}</a>
                         </Link>
                       </h4>
-                      <Link href="/service-details">
+                      <Link href="#service-details">
                         <a className="more-btn">
                           <i className="fal fa-long-arrow-right" />
                         </a>
@@ -101,11 +101,11 @@ const DesignFeatureArea = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <Link href="/service-details">
+                        <Link href="#service-details">
                         <a>{t("designfeaturearea_itemtitle4")}</a>
                         </Link>
                       </h4>
-                      <Link href="/service-details">
+                      <Link href="#service-details">
                         <a className="more-btn">
                           <i className="fal fa-long-arrow-right" />
                         </a>
@@ -126,11 +126,11 @@ const DesignFeatureArea = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <Link href="/service-details">
+                        <Link href="#service-details">
                         <a>{t("designfeaturearea_itemtitle5")}</a>
                         </Link>
                       </h4>
-                      <Link href="/service-details">
+                      <Link href="#service-details">
                         <a className="more-btn">
                           <i className="fal fa-long-arrow-right" />
                         </a>
@@ -145,11 +145,11 @@ const DesignFeatureArea = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <Link href="/service-details">
+                        <Link href="#service-details">
                         <a>{t("designfeaturearea_itemtitle6")}</a>
                         </Link>
                       </h4>
-                      <Link href="/service-details">
+                      <Link href="#service-details">
                         <a className="more-btn">
                           <i className="fal fa-long-arrow-right" />
                         </a>

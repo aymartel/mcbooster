@@ -28,7 +28,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link href="#team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Senior Manager</span>
                 <div className="social-style-one">
@@ -53,7 +53,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link href="#team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-one">
@@ -78,7 +78,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Michael D. Jackson</Link>
+                  <Link href="#team-profile">Michael D. Jackson</Link>
                 </h5>
                 <span className="designation">Business Developer</span>
                 <div className="social-style-one">
@@ -103,7 +103,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Damian S. Madison</Link>
+                  <Link href="#team-profile">Damian S. Madison</Link>
                 </h5>
                 <span className="designation">Product Designer</span>
                 <div className="social-style-one">
@@ -128,7 +128,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link href="#team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Senior Manager</span>
                 <div className="social-style-one">
@@ -153,7 +153,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Richard C. Harrison</Link>
+                  <Link href="#team-profile">Richard C. Harrison</Link>
                 </h5>
                 <span className="designation">Web Developer</span>
                 <div className="social-style-one">
@@ -178,7 +178,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Michael D. Jackson</Link>
+                  <Link href="#team-profile">Michael D. Jackson</Link>
                 </h5>
                 <span className="designation">Business Developer</span>
                 <div className="social-style-one">
@@ -203,7 +203,7 @@ const TeamSliderArea = () => {
               </div>
               <div className="content">
                 <h5>
-                  <Link href="/team-profile">Damian S. Madison</Link>
+                  <Link href="#team-profile">Damian S. Madison</Link>
                 </h5>
                 <span className="designation">Product Designer</span>
                 <div className="social-style-one">

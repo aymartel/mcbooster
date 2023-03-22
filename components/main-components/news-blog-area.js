@@ -29,7 +29,7 @@ const NewsBlogArea = () => {
                     <i className="far fa-calendar-alt" /> 25 March 2022
                   </span>
                   <h4>
-                    <Link href="/blog-details">
+                    <Link href="#blog-details">
                       <a>Easy Ways to Incorporate Customer Feedback</a>
                     </Link>
                   </h4>
@@ -53,7 +53,7 @@ const NewsBlogArea = () => {
                     <i className="far fa-calendar-alt" /> 27 March 2022
                   </span>
                   <h4>
-                    <Link href="/blog-details">
+                    <Link href="#blog-details">
                       <a>How to create modern web site for your business?</a>
                     </Link>
                   </h4>
@@ -77,7 +77,7 @@ const NewsBlogArea = () => {
                     <i className="far fa-calendar-alt" /> 25 March 2022
                   </span>
                   <h4>
-                    <Link href="/blog-details">
+                    <Link href="#blog-details">
                       <a>How to digital marketing work social networking?</a>
                     </Link>
                   </h4>
@@ -101,7 +101,7 @@ const NewsBlogArea = () => {
                     <i className="far fa-calendar-alt" /> 25 March 2022
                   </span>
                   <h4>
-                    <Link href="/blog-details">
+                    <Link href="#blog-details">
                       <a>Easy Ways to Incorporate Customer Feedback</a>
                     </Link>
                   </h4>

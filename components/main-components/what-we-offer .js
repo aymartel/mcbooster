@@ -20,7 +20,7 @@ const WhatWeOffer = () => {
                 <p>
                 {t("whatweoffer_text1")}
                 </p>
-                <Link href="/about">
+                <Link href="#about">
                   <a className="theme-btn mt-15">
                   {t("learnmore")}<i className="fas fa-angle-double-right" />
                   </a>

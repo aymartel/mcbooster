@@ -29,7 +29,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/project-details">
+              <Link href="#project-details">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -38,7 +38,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/project-details">Creative Website design</Link>
+              <Link href="#project-details">Creative Website design</Link>
             </h4>
             <span className="category">Design Responsive</span>
           </div>
@@ -50,7 +50,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/project-details">
+              <Link href="#project-details">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -59,7 +59,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/project-details">Software Landing Pages</Link>
+              <Link href="#project-details">Software Landing Pages</Link>
             </h4>
             <span className="category">Design Responsive</span>
           </div>
@@ -71,7 +71,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/project-details">
+              <Link href="#project-details">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -80,7 +80,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/project-details">Mobile Application Design</Link>
+              <Link href="#project-details">Mobile Application Design</Link>
             </h4>
             <span className="category">Design Responsive</span>
           </div>
@@ -92,7 +92,7 @@ const RecentProjects = () => {
               alt="Project"
             />
             <div className="project-over">
-              <Link href="/project-details">
+              <Link href="#project-details">
                 <a className="details-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -101,7 +101,7 @@ const RecentProjects = () => {
           </div>
           <div className="project-content">
             <h4>
-              <Link href="/project-details">Software Landing Pages</Link>
+              <Link href="#project-details">Software Landing Pages</Link>
             </h4>
             <span className="category">Design Responsive</span>
           </div>

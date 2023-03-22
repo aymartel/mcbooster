@@ -113,7 +113,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -140,7 +140,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -167,7 +167,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -194,7 +194,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -221,7 +221,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -248,7 +248,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -275,7 +275,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -302,7 +302,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -329,7 +329,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -356,7 +356,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -383,7 +383,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -410,7 +410,7 @@ const ProjectGridIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>

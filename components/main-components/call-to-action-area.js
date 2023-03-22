@@ -16,7 +16,7 @@ const CallToActionArea = () => {
                     <i className="flaticon-idea" />
                   </div>
                   <h4>{t("calltoactionarea_text1")}</h4>
-                  <Link href="/contact">
+                  <Link href="#contact">
                     <a className="details-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -29,7 +29,7 @@ const CallToActionArea = () => {
                     <i className="flaticon-startup" />
                   </div>
                   <h4>{t("calltoactionarea_text2")}</h4>
-                  <Link href="/contact">
+                  <Link href="#contact">
                     <a className="details-btn">
                       <i className="far fa-arrow-right" />
                     </a>

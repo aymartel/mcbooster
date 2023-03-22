@@ -30,7 +30,7 @@ const ServicesAreaFour = () => {
                   />
                
                 <h5>Website Creation from Figma, XD or Photoshop</h5>
-                <Link href="/service-details">
+                <Link href="#service-details">
                   <a className="theme-btn style-three">
                     Service Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -46,7 +46,7 @@ const ServicesAreaFour = () => {
                   />
                 
                 <h5>Mobile App Development and Website Design</h5>
-                <Link href="/service-details">
+                <Link href="#service-details">
                   <a className="theme-btn style-three">
                     Service Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -61,7 +61,7 @@ const ServicesAreaFour = () => {
                     alt="Service"
                   />
                 <h5>eCommerce and Product Selling Development</h5>
-                <Link href="/service-details">
+                <Link href="#service-details">
                   <a className="theme-btn style-three">
                     Service Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -76,7 +76,7 @@ const ServicesAreaFour = () => {
                     alt="Service"
                   />
                 <h5>Responsive Websites (UI/UX) Design</h5>
-                <Link href="/service-details">
+                <Link href="#service-details">
                   <a className="theme-btn style-three">
                     Service Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -91,7 +91,7 @@ const ServicesAreaFour = () => {
                     alt="Service"
                   />
                 <h5>SEO (Search Engine Optimization)</h5>
-                <Link href="/service-details">
+                <Link href="#service-details">
                   <a className="theme-btn style-three">
                     Service Details <i className="fas fa-angle-double-right" />
                   </a>
@@ -106,7 +106,7 @@ const ServicesAreaFour = () => {
                     alt="Service"
                   />
                 <h5>Digital Product Design and Development</h5>
-                <Link href="/service-details">
+                <Link href="#service-details">
                   <a className="theme-btn style-three">
                     Service Details <i className="fas fa-angle-double-right" />
                   </a>

@@ -30,7 +30,7 @@ const Header1 = () => {
           <div className="header-inner rel d-flex align-items-center">
             <div className="logo-outer">
               <div className="logo">
-                <Link href="/">
+                <Link href="#">
                   <a>
                     <Image
                       src={logo}
@@ -49,7 +49,7 @@ const Header1 = () => {
               <nav className="main-menu d-none d-lg-block navbar-expand-lg">
                 <div className="navbar-header">
                   <div className="mobile-logo my-15">
-                    <Link href="/">
+                    <Link href="#">
                       <a>
                         <Image
                           src={logo}

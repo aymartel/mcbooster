@@ -60,7 +60,7 @@ const FaqsAreaArea = () => {
           </div>
         </div>
         <div className="col-lg-4 text-lg-end wow fadeInUp delay-0-4s">
-          <Link href="/contact">
+          <Link href="#contact">
             <a className="theme-btn style-three mb-55">
               Add Questions <i className="fas fa-angle-double-right" />
             </a>

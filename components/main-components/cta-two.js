@@ -23,7 +23,7 @@ const CtaTwo = () => {
                 <p>
                   {t("ctatwo_text")}
                 </p>
-                <Link href="/contact">
+                <Link href="#contact">
                   <a className="theme-btn style-three white-btn mt-15">
                   {t("ctatwo_btn")}{" "}
                     <i className="fas fa-angle-double-right" />

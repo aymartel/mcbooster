@@ -22,7 +22,7 @@ const Hero = () => {
              
               </>
               <div className="hero-btns pt-5 wow fadeInUp delay-0-4s">
-                <Link href="/about">
+                <Link href="#about">
                   <a className="theme-btn mt-15">
                     {t("about_us")}{" "}
                     <i className="fas fa-angle-double-right" />

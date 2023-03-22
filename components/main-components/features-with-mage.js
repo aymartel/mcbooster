@@ -21,7 +21,7 @@ const FeaturesWithImage = () => {
                 ultrices gravida commodo viverra mae cenas accumsan lacus vel
                 facilisis.
               </p>
-              <Link href="/service-details">
+              <Link href="#service-details">
                 <a className="read-more">
                   Learn More <i className="far fa-arrow-right" />
                 </a>
@@ -45,7 +45,7 @@ const FeaturesWithImage = () => {
                 <li>Is it easy to create a website</li>
                 <li>Build creative website easily</li>
               </ul>
-              <Link href="/service-details">
+              <Link href="#service-details">
                 <a className="read-more">
                   Learn More <i className="far fa-arrow-right" />
                 </a>
@@ -67,7 +67,7 @@ const FeaturesWithImage = () => {
                 ultrices gravida commodo viverra mae cenas accumsan lacus vel
                 facilisis.
               </p>
-              <Link href="/service-details">
+              <Link href="#service-details">
                 <a className="read-more">
                   Learn More <i className="far fa-arrow-right" />
                 </a>

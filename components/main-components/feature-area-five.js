@@ -16,7 +16,7 @@ const FeatureAreaFive = () => {
               <div className="feature-item-five">
                 <i className="flaticon-responsive" />
                 <h5>
-                  <Link href="/service-details">
+                  <Link href="#service-details">
                     <a>{t("featureareafive_item1")}</a>
                   </Link>
                 </h5>
@@ -26,7 +26,7 @@ const FeatureAreaFive = () => {
               <div className="feature-item-five">
                 <i className="flaticon-feature" />
                 <h5>
-                  <Link href="/service-details">
+                  <Link href="#service-details">
                     <a>{t("featureareafive_item2")}</a>
                   </Link>
                 </h5>
@@ -36,7 +36,7 @@ const FeatureAreaFive = () => {
               <div className="feature-item-five">
                 <i className="flaticon-aim" />
                 <h5>
-                  <Link href="/service-details">
+                  <Link href="#service-details">
                     <a>{t("featureareafive_item3")}</a>
                   </Link>
                 </h5>
@@ -46,7 +46,7 @@ const FeatureAreaFive = () => {
               <div className="feature-item-five">
                 <i className="flaticon-seo" />
                 <h5>
-                  <Link href="/service-details">
+                  <Link href="#service-details">
                     <a>{t("featureareafive_item4")}</a>
                   </Link>
                 </h5>
@@ -56,7 +56,7 @@ const FeatureAreaFive = () => {
               <div className="feature-item-five">
                 <i className="flaticon-search-location" />
                 <h5>
-                  <Link href="/service-details">
+                  <Link href="#service-details">
                     <a>{t("featureareafive_item5")}</a>
                   </Link>
                 </h5>
@@ -66,7 +66,7 @@ const FeatureAreaFive = () => {
               <div className="feature-item-five">
                 <i className="flaticon-settings" />
                 <h5>
-                  <Link href="/service-details">
+                  <Link href="#service-details">
                     <a>{t("featureareafive_item6")}</a>
                   </Link>
                 </h5>

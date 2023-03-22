@@ -100,7 +100,7 @@ const PreMadeTemplateIsotope = () => {
             </div>
             <div className="project-content">
               <h5>
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a>
                     Saas Landing PSD <br />
                     Template
@@ -118,7 +118,7 @@ const PreMadeTemplateIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -145,7 +145,7 @@ const PreMadeTemplateIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -172,7 +172,7 @@ const PreMadeTemplateIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -199,7 +199,7 @@ const PreMadeTemplateIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
@@ -226,7 +226,7 @@ const PreMadeTemplateIsotope = () => {
                 alt="Project"
               />
               <div className="project-over">
-                <Link href="/project-details">
+                <Link href="#project-details">
                   <a className="details-btn">
                     <i className="far fa-arrow-right" />
                   </a>
