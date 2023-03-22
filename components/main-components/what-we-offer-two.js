@@ -34,7 +34,7 @@ const WhatWeOfferTwo = () => {
               <li>{t("whatweoffertwo_list3")}</li>
               <li>{t("whatweoffertwo_list4")}</li>
             </ul>
-            <Link href="#about">
+            <Link href="#about_us">
               <a className="theme-btn mt-15">
                 Learn More <i className="fas fa-angle-double-right" />
               </a>

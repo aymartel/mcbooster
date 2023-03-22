@@ -34,7 +34,7 @@ const PricingAreaTwo = () => {
                       <span className="save">
                       {t("save")}<span> 25%</span>
                       </span>
-                      <Link href="#pricing">
+                      <Link href="#contact">
                         <a className="theme-btn style-three">
                         {t("choose_package")}{" "}
                           <i className="fas fa-angle-double-right" />
@@ -63,7 +63,7 @@ const PricingAreaTwo = () => {
                       <span className="save">
                       {t("save")}<span> 25%</span>
                       </span>
-                      <Link href="#pricing">
+                      <Link href="#contact">
                         <a className="theme-btn style-three">
                         {t("choose_package")}{" "}
                           <i className="fas fa-angle-double-right" />
@@ -92,7 +92,7 @@ const PricingAreaTwo = () => {
                       <span className="save">
                       {t("save")}<span> 25%</span>
                       </span>
-                      <Link href="#pricing">
+                      <Link href="#contact">
                         <a className="theme-btn style-three">
                         {t("choose_package")}{" "}
                           <i className="fas fa-angle-double-right" />
@@ -121,7 +121,7 @@ const PricingAreaTwo = () => {
                       <span className="save">
                       {t("save")}<span> 25%</span>
                       </span>
-                      <Link href="#pricing">
+                      <Link href="#contact">
                         <a className="theme-btn style-three">
                         {t("choose_package")}{" "}
                           <i className="fas fa-angle-double-right" />

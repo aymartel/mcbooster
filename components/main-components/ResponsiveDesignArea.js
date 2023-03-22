@@ -24,7 +24,7 @@ const ResponsiveDesignArea = () => {
                 <li>{t("responsivedesignarea_list2")}</li>
                 <li>{t("responsivedesignarea_list3")}</li>
               </ul>
-              <Link href="#about">
+              <Link href="#about_us">
                 <a className="theme-btn style-two mt-15">
                 {t("learnmore")} <i className="fas fa-angle-double-right" />
                 </a>

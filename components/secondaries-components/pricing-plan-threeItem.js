@@ -22,7 +22,7 @@ const PricingPlanThreeItem = ({name, list=[], price, tipePrice, popular, save,pe
               <span className="save">
                 {"save"}<span> {percentSave}%</span>
               </span>
-              <Link href="#pricing">
+              <Link href="#contact">
                 <a className="theme-btn style-three colorBTNprice">
                   {textbtn} {" "}
                   <i className="fas fa-angle-double-right" />

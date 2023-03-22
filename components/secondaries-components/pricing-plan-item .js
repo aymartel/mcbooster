@@ -19,7 +19,7 @@ const PricingPlanItem = ({planTitle,planItems,planprice,savepercent}) => {
           <span className="save">
             Save<span> {savepercent}%</span>
           </span>
-          <Link href="#pricing">
+          <Link href="#contact">
             <a className="theme-btn style-three colorBTNprice">
               Choose Package <i className="fas fa-angle-double-right" />
             </a>

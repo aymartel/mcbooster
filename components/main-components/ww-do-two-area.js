@@ -45,7 +45,7 @@ const WwdoTwoArea = () => {
                   </div>
                 </div>
                 <div className="ww-do-btns">
-                  <Link href="#about">
+                  <Link href="#about_us">
                     <a className="theme-btn mt-15">
                     {t("featureitemtwo_button")}
                       <i className="fas fa-angle-double-right" />
