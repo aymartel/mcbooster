@@ -7,12 +7,12 @@ const FeatureAreaFive = () => {
   return (
     <section className="feature-area-five bgc-lighter pt-100 pb-70">
         <div className="container">
-          <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+          <div className="section-title text-center mb-60 wow fadeInUp delay-0-1s">
             <span className="sub-title mb-10">{t("featureareafive_title")}</span>
             <h2>{t("featureareafive_subtitle")}</h2>
           </div>
           <div className="row row-cols-xl-6 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center">
-            <div className="col wow fadeInUp delay-0-2s">
+            <div className="col wow fadeInUp delay-0-1s">
               <div className="feature-item-five">
                 <i className="flaticon-responsive" />
                 <h5>
@@ -22,7 +22,7 @@ const FeatureAreaFive = () => {
                 </h5>
               </div>
             </div>
-            <div className="col wow fadeInUp delay-0-3s">
+            <div className="col wow fadeInUp delay-0-1s">
               <div className="feature-item-five">
                 <i className="flaticon-feature" />
                 <h5>

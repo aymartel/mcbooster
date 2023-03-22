@@ -1,7 +1,7 @@
 
 const FeatureItemThree = ({title,text,srcIcon}) => {
   return (
-    <div className="feature-item-three wow fadeInRight delay-0-3s">
+    <div className="feature-item-three wow fadeInRight delay-0-1s">
       <i className={srcIcon} />
       <div className="content">
         <h4>{title}</h4>

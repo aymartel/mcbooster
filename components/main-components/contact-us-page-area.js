@@ -9,7 +9,7 @@ const ContactUsPageArea = () => {
       <div className="container">
         <div className="row align-items-end justify-content-between">
           <div className="col-lg-7">
-            <div className="contact-content rmb-65 wow fadeInRight delay-0-2s">
+            <div className="contact-content rmb-65 wow fadeInRight delay-0-1s">
               <div className="section-title mb-25">
                 <span className="sub-title style-two mb-15">{t("contactuspagearea_title")}</span>
                 <h2>
@@ -23,7 +23,7 @@ const ContactUsPageArea = () => {
             </div>
           </div>
           <div className="col-xl-4 col-lg-5">
-            <div className="contact-info wow fadeInLeft delay-0-2s">
+            <div className="contact-info wow fadeInLeft delay-0-1s">
               <div className="contact-info-item style-two">
                 <div className="icon">
                   <i className="fal fa-map-marker-alt" />

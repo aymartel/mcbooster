@@ -9,7 +9,7 @@ const OurLocationAddressArea = () => {
         <div className="container">
           <div className="row medium-gap justify-content-center">
             <div className="col-lg-4 col-md-6">
-              <div className="location-address-item wow fadeInUp delay-0-2s">
+              <div className="location-address-item wow fadeInUp delay-0-1s">
                 <div className="top-part">
                   <Image  
                     src={location1}

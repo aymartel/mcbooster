@@ -1,6 +1,43 @@
-import { Fragment } from "react";
-import { sideBarToggle } from "../../utils/utils";
-const SideBar = () => {
+import axios from "axios";
+import { Fragment, useState } from "react";
+import { sideBarToggle, useForm } from "../../utils/utils";
+const SideBar = ({ tsendmessage, tname, temailaddress, tphonenumber, twritemessage, tsave, tsending, tsended }) => {
+  const initialForm = {
+    name: '',
+    email: '',
+    number: '',
+    message: '',
+  }
+  const [values, handleInputChange, reset] = useForm(initialForm);
+  const { name, email, number, message } = values;
+  const [loading, setloading] = useState(false);
+  const [sended, setsended] = useState(false);
+
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setloading(true)
+    setsended(false)
+    try {
+
+      await axios.post('/api/send-email', JSON.stringify({ name, email, number, message }), {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then(function (response) {
+          console.log(response);
+          setsended(true)
+        })
+
+    } catch (error) {
+      console.error(error);
+      setsended(false)
+    }
+    reset();
+    setloading(false);
+  };
+
   return (
     <Fragment>
       {/*Form Back Drop*/}
@@ -12,36 +49,69 @@ const SideBar = () => {
             <span className="fa fa-times" />
           </div>
           <div className="title">
-            <h4>Get Appointment</h4>
+            <h4>{tsendmessage}</h4>
           </div>
           {/*Appointment Form*/}
           <div className="appointment-form">
-            <form onSubmit={(e) => e.preventDefault()}>
+            <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <input
                   type="text"
-                  name="text"
-                  defaultValue=""
-                  placeholder="Name"
-                  required=""
+                  id="full-name"
+                  name="name"
+                  className="form-control"
+                  placeholder={tname}
+                  required
+                  value={name}
+                  onChange={handleInputChange}
                 />
+
+              </div>
+              <div className="form-group">
+    
+                <input
+                  type="email"
+                  id="blog-email"
+                  name="email"
+                  className="form-control"
+                  placeholder={temailaddress}
+                  required
+                  value={email}
+                  onChange={handleInputChange}
+                />
+
               </div>
               <div className="form-group">
                 <input
-                  type="email"
-                  name="email"
-                  defaultValue=""
-                  placeholder="Email Address"
-                  required=""
+                  type="text"
+                  id="phone"
+                  name="number"
+                  className="form-control"
+                  placeholder={tphonenumber}
+                  required
+                  value={number}
+                  onChange={handleInputChange}
+                />
+
+              </div>
+              <div className="form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  className="form-control"
+                  rows={5}
+                  placeholder={twritemessage}
+                  required
+                  value={message}
+                  onChange={handleInputChange}
                 />
               </div>
               <div className="form-group">
-                <textarea placeholder="Message" rows={5} defaultValue={""} />
-              </div>
-              <div className="form-group">
                 <button type="submit" className="theme-btn">
-                  Submit now
+                  {tsave}
                 </button>
+                {loading ? <h5 className="mt-2 text-white">{tsending}</h5> : ""}
+                {sended ? <h5 className="mt-2 text-white">{tsended}</h5> : ""}
               </div>
             </form>
           </div>

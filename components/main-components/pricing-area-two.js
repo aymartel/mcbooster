@@ -9,7 +9,7 @@ const PricingAreaTwo = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <div className="section-title text-center mb-55 wow fadeInUp delay-0-2s">
+              <div className="section-title text-center mb-55 wow fadeInUp delay-0-1s">
                 <span className="sub-title mb-15">{t("pricingareatwo_title")}</span>
                 <h2>{t("pricingareatwo_subtitle")}</h2>
               </div>
@@ -17,7 +17,7 @@ const PricingAreaTwo = () => {
           </div>
           <div className="row">
             <div className="col-lg-6">
-              <div className="pricing-item-two wow fadeInUp delay-0-2s">
+              <div className="pricing-item-two wow fadeInUp delay-0-1s">
                 <h4 className="title">{t("pricingareatwo_plantitle1")}</h4>
                 <span className="badge">{t("popular_package")}</span>
                 <div className="pricing-inner">
@@ -46,7 +46,7 @@ const PricingAreaTwo = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="pricing-item-two wow fadeInUp delay-0-2s">
+              <div className="pricing-item-two wow fadeInUp delay-0-1s">
                 <h4 className="title">{t("pricingareatwo_plantitle2")}</h4>
                 <span className="badge">{t("popular_package")}</span>
                 <div className="pricing-inner">
@@ -75,7 +75,7 @@ const PricingAreaTwo = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="pricing-item-two wow fadeInUp delay-0-2s">
+              <div className="pricing-item-two wow fadeInUp delay-0-1s">
                 <h4 className="title">{t("pricingareatwo_plantitle3")}</h4>
                 <span className="badge">{t("popular_package")}</span>
                 <div className="pricing-inner">
@@ -104,7 +104,7 @@ const PricingAreaTwo = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="pricing-item-two wow fadeInUp delay-0-2s">
+              <div className="pricing-item-two wow fadeInUp delay-0-1s">
                 <h4 className="title">{t("pricingareatwo_plantitle4")}</h4>
                 <span className="badge">{t("popular_package")}</span>
                 <div className="pricing-inner">

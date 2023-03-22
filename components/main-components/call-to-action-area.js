@@ -11,7 +11,7 @@ const CallToActionArea = () => {
           >
             <div className="row">
               <div className="col-xl-6">
-                <div className="cta-item wow fadeInLeft delay-0-2s">
+                <div className="cta-item wow fadeInLeft delay-0-1s">
                   <div className="icon">
                     <i className="flaticon-idea" />
                   </div>
@@ -24,7 +24,7 @@ const CallToActionArea = () => {
                 </div>
               </div>
               <div className="col-xl-6">
-                <div className="cta-item wow fadeInRight delay-0-2s">
+                <div className="cta-item wow fadeInRight delay-0-1s">
                   <div className="icon">
                     <i className="flaticon-startup" />
                   </div>

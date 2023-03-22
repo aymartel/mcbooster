@@ -11,7 +11,7 @@ const ContactArea = () => {
       <div className="container">
         <div className="row justify-content-between">
           <div className="col-xl-5 col-lg-6">
-            <div className="contact-info-area text-white rmb-75 wow fadeInLeft delay-0-2s">
+            <div className="contact-info-area text-white rmb-75 wow fadeInLeft delay-0-1s">
               <div className="section-title mb-55">
                 <h2>
                   {t("contactarea_text")}{" "}

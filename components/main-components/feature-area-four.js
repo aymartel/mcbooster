@@ -12,7 +12,7 @@ const FeatureAreaFour = () => {
         </div>
         <div className="row justify-content-center">
           <div className="col-xl-4 col-md-6">
-            <div className="feature-item-four wow fadeInUp delay-0-3s">
+            <div className="feature-item-four wow fadeInUp delay-0-1s">
               <h4>
                 <i className="flaticon-design" />
                 <Link href="/service-details">
@@ -52,7 +52,7 @@ const FeatureAreaFour = () => {
           </div>
 
           <div className="col-xl-4 col-md-6">
-            <div className="feature-item-four wow fadeInUp delay-0-3s">
+            <div className="feature-item-four wow fadeInUp delay-0-1s">
               <h4>
                 <i className="flaticon-web-programming" />
                 <Link href="/service-details">

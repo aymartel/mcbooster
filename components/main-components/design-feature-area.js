@@ -11,7 +11,7 @@ const DesignFeatureArea = () => {
   return (
     <section className="design-feature-area overflow-hidden pt-130 pb-100 text-white bgc-black-with-lighting rel z-1">
       <div className="container">
-        <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+        <div className="section-title text-center mb-60 wow fadeInUp delay-0-1s">
           <span className="sub-title mb-10">{t("designfeaturearea_title")}</span>
           <h2>{t("designfeaturearea_subtitle")}</h2>
         </div>
@@ -20,7 +20,7 @@ const DesignFeatureArea = () => {
             <div className="feature-left">
               <div className="row">
                 <div className="col-lg-12 col-sm-6">
-                  <div className="service-item style-three wow fadeInRight delay-0-2s">
+                  <div className="service-item style-three wow fadeInRight delay-0-1s">
                     <div className="icon">
                       <i className="flaticon-design" />
                     </div>
@@ -39,7 +39,7 @@ const DesignFeatureArea = () => {
                   </div>
                 </div>
                 <div className="col-lg-12 col-sm-6">
-                  <div className="service-item style-three wow fadeInRight delay-0-3s">
+                  <div className="service-item style-three wow fadeInRight delay-0-1s">
                     <div className="icon">
                       <i className="flaticon-web-page" />
                     </div>
@@ -62,7 +62,7 @@ const DesignFeatureArea = () => {
           </div>
           <div className="col-lg-6">
             <div className="feature-middle rmt-30">
-              <div className="image wow fadeInUp delay-0-2s">
+              <div className="image wow fadeInUp delay-0-1s">
                 <img
                   className="circle-text"
                   src="images/shapes/feature-image-top.png"
@@ -76,7 +76,7 @@ const DesignFeatureArea = () => {
               </div>
               <div className="row">
                 <div className="col-sm-6">
-                  <div className="service-item style-three wow fadeInUp delay-0-3s">
+                  <div className="service-item style-three wow fadeInUp delay-0-1s">
                     <div className="icon">
                       <i className="flaticon-online" />
                     </div>
@@ -120,7 +120,7 @@ const DesignFeatureArea = () => {
             <div className="feature-right">
               <div className="row">
                 <div className="col-lg-12 col-sm-6">
-                  <div className="service-item style-three mt-100 wow fadeInLeft delay-0-2s">
+                  <div className="service-item style-three mt-100 wow fadeInLeft delay-0-1s">
                     <div className="icon">
                       <i className="flaticon-graphic-design" />
                     </div>
@@ -139,7 +139,7 @@ const DesignFeatureArea = () => {
                   </div>
                 </div>
                 <div className="col-lg-12 col-sm-6">
-                  <div className="service-item style-three wow fadeInLeft delay-0-3s">
+                  <div className="service-item style-three wow fadeInLeft delay-0-1s">
                     <div className="icon">
                       <i className="flaticon-user-experience" />
                     </div>

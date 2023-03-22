@@ -44,7 +44,7 @@ const FormContactIndex = ({ tsendmessage, tname, temailaddress, tphonenumber, tw
     <form
       onSubmit={handleSubmit}
       id="contact-area-form"
-      className="contact-area-form text-center wow fadeInRight delay-0-2s"
+      className="contact-area-form text-center wow fadeInRight delay-0-1s"
       name="contact-area-form"
     >
       <h4>{tsendmessage}</h4>

@@ -12,7 +12,7 @@ const AboutAreaOne = () => {
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5">
-              <div className="about-image-one bg-squire-shape rmb-85 wow fadeInUp delay-0-2s">
+              <div className="about-image-one bg-squire-shape rmb-85 wow fadeInUp delay-0-1s">
                 <Image src={aboutOne} alt="About us" />
              
               </div>

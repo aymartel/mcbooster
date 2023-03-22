@@ -2,8 +2,46 @@ import Link from "next/link";
 import Image from "next/image";
 import logoThree from "@/images/logos/logo2.svg";
 import { useTranslations } from "next-intl";
+import { useForm } from "utils/utils";
+import { useState } from "react";
+import axios from "axios";
 const Footer = ({ footer }) => {
   const t = useTranslations('Messages');
+  const initialForm = {
+    name: '',
+    email: '',
+    number: '',
+    message: '',
+  }
+  const [values, handleInputChange, reset] = useForm(initialForm);
+  const { name, email, number, message } = values;
+  const [loading, setloading] = useState(false);
+  const [sended, setsended] = useState(false);
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setloading(true)
+    setsended(false)
+    try {
+
+      await axios.post('/api/send-email', JSON.stringify({ name, email, number, message }), {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then(function (response) {
+          console.log(response);
+          setsended(true)
+        })
+
+    } catch (error) {
+      console.error(error);
+      setsended(false)
+    }
+    reset();
+    setloading(false);
+  };
+
   return <footer className="main-footer pt-80">
     <div className="container">
       <div className="row justify-content-xl-between justify-content-center">
@@ -63,11 +101,22 @@ const Footer = ({ footer }) => {
           <div className="footer-widget widget_newsletter wow fadeInUp delay-0-6s">
             <h4 className="footer-title">{t("footer_newsletter")}</h4>
             <p>{t("footer_newslettertext")}</p>
-            <form onSubmit={(e) => e.preventDefault()} action="#">
-              <input type="email" placeholder="Enter email" required="" />
-              <button className="theme-btn">
+            <form onSubmit={handleSubmit}>
+            <input
+                  type="email"
+                  id="blog-email"
+                  name="email"
+                  className="form-control"
+                  placeholder={t("emailaddress")}
+                  required
+                  value={email}
+                  onChange={handleInputChange}
+                />
+              <button className="theme-btn" type="submit">
                 {t("save")} <i className="fas fa-angle-double-right" />
               </button>
+              {loading ? <h6 className="mt-2">{t("sending")}</h6> : ""}
+                {sended ? <h6 className="mt-2 ">{t("sended")}</h6> : ""}
             </form>
           </div>
         </div>

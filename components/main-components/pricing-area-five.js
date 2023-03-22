@@ -19,7 +19,7 @@ const PricingAreaFive = () => {
             </div>
             <div className="col-lg-5 text-lg-end">
             <Nav
-                className="nav pricing-tab mb-35 wow fadeInUp delay-0-3s m-5"
+                className="nav pricing-tab mb-35 wow fadeInUp delay-0-1s m-5"
                 role="tablist"
               >
                 
@@ -37,7 +37,7 @@ const PricingAreaFive = () => {
               </Nav>
               
               <Nav
-                className="nav pricing-tab mb-35 wow fadeInUp delay-0-3s"
+                className="nav pricing-tab mb-35 wow fadeInUp delay-0-1s"
                 role="tablist"
               >
                 
@@ -57,7 +57,7 @@ const PricingAreaFive = () => {
               </Nav>
             
               <Nav
-                className="nav pricing-tab mb-35 wow fadeInUp delay-0-3s m-5"
+                className="nav pricing-tab mb-35 wow fadeInUp delay-0-1s m-5"
                 role="tablist"
               >
                 

@@ -12,7 +12,7 @@ const NewsBlogArea = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">
-              <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+              <div className="section-title text-center mb-60 wow fadeInUp delay-0-1s">
                 <span className="sub-title mb-15">Get Every Updates</span>
                 <h2>Read Latest News &amp; Blog</h2>
               </div>
@@ -20,7 +20,7 @@ const NewsBlogArea = () => {
           </div>
           <div className="row large-gap">
             <div className="col-lg-6">
-              <div className="blog-item wow fadeInUp delay-0-2s">
+              <div className="blog-item wow fadeInUp delay-0-1s">
                 <div className="image">
                   <Image src={blog1} alt="Blog" />
                 </div>
@@ -68,7 +68,7 @@ const NewsBlogArea = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="blog-item wow fadeInUp delay-0-2s">
+              <div className="blog-item wow fadeInUp delay-0-1s">
                 <div className="image">
                   <Image src={blog1} alt="Blog" />
                 </div>

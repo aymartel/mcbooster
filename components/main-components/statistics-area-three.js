@@ -13,7 +13,7 @@ const StatisticsAreaThree = () => {
     <div className="container">
       <div className="row justify-content-between align-items-center">
         <div className="col-lg-7">
-          <div className="statistics-three-content rmb-65 wow fadeInRight delay-0-2s">
+          <div className="statistics-three-content rmb-65 wow fadeInRight delay-0-1s">
             <div className="row justify-content-center justify-content-xl-start">
               <div className="col-xl-9">
                 <div className="section-title mb-60">
@@ -24,7 +24,7 @@ const StatisticsAreaThree = () => {
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-4 col-sm-6">
-                <div className="counter-item style-two counter-text-wrap wow fadeInRight delay-0-3s">
+                <div className="counter-item style-two counter-text-wrap wow fadeInRight delay-0-1s">
                   <i className="flaticon-startup" />
                   <Counter end={2365} />
                   <span className="counter-title">{t("statisticsareathree_itemtitle1")}</span>
@@ -51,7 +51,7 @@ const StatisticsAreaThree = () => {
           </div>
         </div>
         <div className="col-lg-5">
-          <div className="statistics-three-image bg-squire-shape mb-30 wow fadeInLeft delay-0-3s">
+          <div className="statistics-three-image bg-squire-shape mb-30 wow fadeInLeft delay-0-1s">
             <Image
               src={statictics}
               alt="Statictics"
