@@ -81,7 +81,7 @@ const Footer = ({ footer }) => {
                 <Link href="#home">{t("home")}</Link>
               </li>
               <li>
-                <Link href="#about_us_us">{t("about_us")}</Link>
+                <Link href="#about_us">{t("about_us")}</Link>
               </li>
               <li>
                 <Link href="#services">{t("services")}</Link>
@@ -127,7 +127,7 @@ const Footer = ({ footer }) => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="copyright-text text-center text-lg-start">
-              <p>© Copyright {new Date().getFullYear()} MC Booster. {t("footer_copyright")}</p>
+              <p>© Copyright {new Date().getFullYear()} Andy Martel. {t("footer_copyright")}</p>
             </div>
           </div>
           <div className="col-lg-6">

@@ -60,7 +60,7 @@ const MobileMenu = ({ logo }) => {
               <Link href="#home">{t("home")}</Link>
             </li>
             <li>
-              <Link href="#about_us_us">{t("about_us")}</Link>
+              <Link href="#about_us">{t("about_us")}</Link>
             </li>
             <li>
               <Link href="#services">{t("services")}</Link>

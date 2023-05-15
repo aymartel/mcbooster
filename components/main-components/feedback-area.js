@@ -32,7 +32,7 @@ const FeedbackArea = () => {
             title={t("feedbackitem_title1")}
             text={t("feedbackitem_text1")}
             srcAvatar={author3}
-            name="Felix Caballero"
+            name="Kalim D."
             position={t("feedbackitem_position2")}
           />
 
@@ -51,7 +51,7 @@ const FeedbackArea = () => {
             title={t("feedbackitem_title3")}
             text={t("feedbackitem_text3")}
             srcAvatar={authorcarlos}
-            name="Carlos Barrero"
+            name="Carlos B."
             position={t("feedbackitem_position3")}
           />
 

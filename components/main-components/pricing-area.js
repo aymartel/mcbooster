@@ -23,7 +23,7 @@ const PricingArea = () => {
             t("plan1_service2"),t("plan1_service5"),
             t("plan1_service3"),t("plan1_service6"),
             t("plan1_service7")]}
-          planprice={200}
+          planprice={350}
           savepercent={25}
         />
         <PricingPlanItem
@@ -35,7 +35,7 @@ const PricingArea = () => {
             t("plan2_service7"), t("plan2_service9"),
             t("plan2_service8")
           ]}
-          planprice={350}
+          planprice={450}
           savepercent={25}
         />
         <PricingPlanItem
@@ -47,7 +47,7 @@ const PricingArea = () => {
             t("plan2_service7"), t("plan3_service9"),
             t("plan3_service8")
           ]}
-          planprice={500}
+          planprice={600}
           savepercent={25}
         />
 
